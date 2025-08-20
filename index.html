@@ -1,0 +1,48 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShareMo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>ShareMo</h1>
+    <p>Simple and Fast File Sharing</p>
+  </header>
+
+  <main>
+    <section class="actions">
+      <button id="sendBtn">Send</button>
+      <button id="receiveBtn">Receive</button>
+    </section>
+
+    <section class="file-manager">
+      <input type="file" id="fileInput" multiple />
+      <label for="fileInput">Select Files</label>
+    </section>
+
+    <section class="status">
+      <p id="connectionStatus">Bluetooth Status: Disconnected</p>
+    </section>
+
+    <section class="storage">
+      <p>Storage: <span id="usedSpace">0</span> MB used / <span id="freeSpace">0</span> MB free</p>
+    </section>
+
+    <section class="history">
+      <h2>Recent Shares</h2>
+      <ul id="historyList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ShareMo. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+```
