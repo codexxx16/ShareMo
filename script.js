@@ -1,4 +1,3 @@
-```javascript
 function sendFile() {
   alert("Send feature is under development.");
 }
@@ -19,4 +18,3 @@ function updateStorage() {
 }
 
 window.onload = updateStorage;
-```
